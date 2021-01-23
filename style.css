@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a,a:hover, a:active,a:focus{
+    text-decoration: none;
+    color: #000000;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+p{
+    margin: 0;
+    line-height: 24px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* =====================
+style start from here
+========================
+*/
+body{
+    background-color: blue;
+    background-image: radial-gradient(circle, rgba(255,0,0,0) 0%, rgba(167,1,1,0.8) 100%);
+    background-attachment: fixed;
+}
+#rowID{
+    margin-bottom: 5px;
+}
+
+.main-part{
+    background-color: rgb(224, 226, 78);
+    margin-top: 3px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #ffffff;
+}
+.main-part h5{
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.main-part h6{
+    text-transform: capitalize;
+}
+.head-part{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.head-part h4{
+    margin-bottom: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: azure;
+    font-weight: 600;
+}
+.head-part input[type="text"]{
+    width: 100%;
+    background-color: rgb(207, 170, 21);
+    border: none;
+    padding: 5px;
+    font-weight: 500;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.head-part input[type="text"]:focus{
+    border: 0px solid;
+    outline: none;
+}
+
+
+
+
+
+@media only screen and (max-width:526px){
+    .head-part h4{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:407px){
+    .head-part h4{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:329px){
+    .head-part h4{
+        font-size: 12px;
+    }
+}
