@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bangers&family=Hind+Guntur:wght@500&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -44,14 +46,18 @@ body{
     box-shadow: 1px 1px 2px #ffffff;
 }
 .main-part h5{
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid  rgb(167, 156, 115);
     padding-bottom: 5px;
     margin-bottom: 5px;
     font-weight: 800;
     text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
 }
 .main-part h6{
     text-transform: capitalize;
+    /* font-family: 'Alfa Slab One', cursive; */
+    font-family: 'Hind Guntur', sans-serif;
 }
 .head-part{
     border-bottom-left-radius: 5px;
@@ -61,7 +67,7 @@ body{
     margin-bottom: 5px;
     padding: 10px;
     text-transform: uppercase;
-    color: azure;
+    color:  rgb(224, 226, 78);
     font-weight: 600;
 }
 .head-part input[type="text"]{
