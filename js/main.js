@@ -12,6 +12,14 @@ const myAbbreviation=[
      {'word':'dtcd', 'meaning':'Diploma in Tuberculosis and Chest Diseases'},
      {'word':'dgo', 'meaning':'Diploma in Gynecology and Obstetrics'},
      {'word':'md', 'meaning':'Doctor of Medicine'},
+     {'word':'ccd', 'meaning':'Certificate Course on Diabetology'},
+     {'word':'M Phill', 'meaning':'Master of Philosophy'},
+     {'word':'fmas', 'meaning':'fellowship in minimal access surgery'},
+     {'word':'pgt', 'meaning':'Postgraduate Training'},
+     {'word':'ms', 'meaning':'Master of Surgery'},
+     {'word':'d.o', 'meaning':'Doctor of Osteopathic Medicine'},
+     {'word':'mph', 'meaning':'Masters in Public Health'},
+     {'word':'fcgp', 'meaning':'Fellow of the College of General Practitioners'},
 ]
 
 function myFunc(data){
